@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+<h1>Our Products</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="signup.html">Sign Up</a>
+</nav>
+
+<!-- LAPTOPS -->
+<section id="laptops">
+<h2>Laptops</h2>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1567521463850-4939134bcd4a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+<h3>Dell XPS 13</h3>
+<p>$595</p>
+<button onclick="addToCart('Dell XPS 13',595)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9va3xlbnwwfHwwfHx8MA%3D%3D" 
+<h3>MacBook</h3>
+<p>$750</p>
+<button onclick="addToCart('MacBook',750)">Add to Cart</button>
+</div>
+
+</section>
+
+<!-- ACCESSORIES -->
+<section id="accessories">
+<h2>Accessories</h2>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1635896383799-06e1e0accda0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmF6b3JnYW1pbmclMjBtb3VzZXxlbnwwfHwwfHx8MA%3D%3D"
+<h3>Razer X Mouse</h3>
+<p>$55.99</p>
+<button onclick="addToCart('Wireless MouseRazer X Mouse',55.95)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1715085836054-9fdab4943f41?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Keyboard">
+<h3>Mechanical Keyboard</h3>
+<p>$82.99</p>
+<button onclick="addToCart('Mechanical Keyboard',82.99)">Add to Cart</button>
+</div>
+
+</section>
+
+<!-- NETWORKING -->
+<section id="networking">
+<h2>Networking</h2>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1750711731797-25c3f2551ff8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Router">
+<h3>TP-Link Router</h3>
+<p>$120</p>
+<button onclick="addToCart('TP-Link Router',120)">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="https://www.netgear.com/zone3/cid/fit/1024x633/to/jpg/https/www.netgear.com/ca-en/media/Hero-Image_tcm186-115262.png" alt="Switch">
+<h3>Netgear Switch</h3>
+<p>$100</p>
+<button onclick="addToCart('Netgear Switch',100)">Add to Cart</button>
+</div>
+
+</section>
+
+<<div class="cart-container">
+    <h3>🛒 Cart</h3>
+    <ul id="cart"></ul>
+</div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
